@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "logsentinel-sdk"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+package-mode = true
+packages = [
+    {include = "logsentinel_sdk", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0"
+boto3 = "^1.42.61"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths =["tests"]
+pythonpath =["src"]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-cov = "*"
+ruff = "^0.15.4"
+mypy = "^1.19.1"
+moto = {version = ">=5.1.21,<6.0.0", extras = ["dynamodb", "kinesis", "s3", "sqs", "ssm"]}
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
