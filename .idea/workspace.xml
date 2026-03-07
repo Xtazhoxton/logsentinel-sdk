@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb934d59-ed0e-44d9-8cc1-8ee688ad311f" name="Changes" comment="" />
+    <list default="true" id="fb934d59-ed0e-44d9-8cc1-8ee688ad311f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logsentinel_sdk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logsentinel_sdk/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +40,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/t002-addGenerateId" />
+                    <option name="lastUsedInstant" value="1772886628" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="feature/t001" />
                     <option name="lastUsedInstant" value="1772729197" />
@@ -83,7 +90,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/t001",
+    "git-widget-placeholder": "feature/t002-addGenerateId",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/arthur/Documents/logsentinel-project/logsentinel-sdk",
     "node.js.detected.package.eslint": "true",
@@ -118,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1772726131324</updated>
-      <workItem from="1772726132354" duration="3731000" />
+      <workItem from="1772726132354" duration="8616000" />
     </task>
     <servers />
   </component>
