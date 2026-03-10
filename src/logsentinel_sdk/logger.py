@@ -1,10 +1,12 @@
 import json
 import os
 from datetime import datetime, timezone
-from typing import Any, Self
+from typing import TYPE_CHECKING, Any, Self
 
 import boto3
-from mypy_boto3_kinesis.type_defs import PutRecordsRequestEntryTypeDef
+
+if TYPE_CHECKING:
+    from mypy_boto3_kinesis.type_defs import PutRecordsRequestEntryTypeDef
 
 
 class Logger:
